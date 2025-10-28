@@ -1,10 +1,10 @@
-# 🧠 SmartCalendar
+# SmartCalendar
 
 SmartCalendar is a Python app that connects to your Google Calendar, finds free time between your events, and automatically schedules tasks into those open slots. It also includes a simple GUI so you can add tasks manually without editing files.
 
 ---
 
-## 🚀 Features
+## Features
 - Reads your real Google Calendar events
 - Detects free time slots automatically
 - Schedules tasks from a CSV file or GUI input
@@ -13,14 +13,14 @@ SmartCalendar is a Python app that connects to your Google Calendar, finds free 
 
 ---
 
-## ⚙️ Requirements
+## Requirements
 - Python 3.9 or newer
 - A Google account
 - A Google Cloud project with the Calendar API enabled
 
 ---
 
-## 🪜 Setup Instructions
+## Setup Instructions
 
 ### 1. Clone the repository
 git clone https://github.com/<your-username>/SmartCalendar.git  
@@ -43,7 +43,7 @@ pip install google-api-python-client google-auth-httplib2 google-auth-oauthlib t
 
 ---
 
-## ▶️ How to Run the App
+## How to Run the App
 
 ### Run the backend (auto-scheduling tasks from CSV)
 python3 main.py
@@ -70,7 +70,7 @@ A small window will appear that lets you:
 
 ---
 
-## 🧩 Folder Structure
+## Folder Structure
 SmartCalendar/  
 ├── main.py              → backend logic (connects to Calendar + schedules CSV tasks)  
 ├── gui.py               → GUI interface for manual task adding  
@@ -81,20 +81,20 @@ SmartCalendar/
 
 ---
 
-## 🧠 Future Improvements
+## Future Improvements
 - Add task priorities or categories
 - Show free-time blocks visually in the GUI
 - Add dark mode styling
 
 ---
 
-## 👤 Author
+## Author
 **Zaid Barakat**  
 SmartCalendar — Google Calendar API  
 Texas A&M University, College Station  
-📧 zaiduchiha2007@gmail.com  
+📧 zaidfiras135@gmail.com  
 
 ---
 
-## 📜 License
+## License
 Released under the MIT License — free to use and modify for personal or educational projects.
